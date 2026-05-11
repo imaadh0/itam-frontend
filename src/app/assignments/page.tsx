@@ -143,7 +143,7 @@ export default function AssignmentsPage() {
   const returnedAssignments = assignments.filter((a) => a.returnedAt);
 
   return (
-    <main className="min-h-screen bg-background px-6 py-8 text-foreground">
+    <main className="min-h-screen bg-background px-4 sm:px-6 py-6 sm:py-8 text-foreground">
       <div className="mx-auto max-w-6xl space-y-6">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <h1 className="text-3xl font-bold tracking-tight">Assignments</h1>

@@ -267,7 +267,7 @@ export default function AuditPage() {
 
   if (isAuthLoading || (user && user.role !== "IT_MANAGER")) {
     return (
-      <main className="min-h-screen bg-background px-6 py-8 text-foreground">
+      <main className="min-h-screen bg-background px-4 sm:px-6 py-6 sm:py-8 text-foreground">
         <div className="mx-auto max-w-6xl">
           <Card>
             <CardContent className="py-10 text-sm text-muted-foreground">

@@ -200,7 +200,7 @@ export default function UsersPage() {
   }
 
   return (
-    <main className="min-h-screen bg-background px-6 py-8 text-foreground">
+    <main className="min-h-screen bg-background px-4 sm:px-6 py-6 sm:py-8 text-foreground">
       <div className="mx-auto max-w-6xl space-y-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
