@@ -176,11 +176,13 @@ export function AppShell({ children }: { children: ReactNode }) {
           </div>
 
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
-                <Menu className="h-6 w-6" />
-              </Button>
-            </SheetTrigger>
+            <SheetTrigger
+              render={
+                <Button variant="ghost" size="icon">
+                  <Menu className="h-6 w-6" />
+                </Button>
+              }
+            />
             <SheetContent side="left" className="flex w-72 flex-col p-0">
               <SheetHeader className="border-b p-5 text-left">
                 <SheetTitle className="flex items-center gap-2">
